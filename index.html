@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo list</title>
+</head>
+<body>
+      <div class="TodoConatiner">
+          
+           <div class="todobox"> 
+            <form action="">
+              <img id="notes" src="https://cdn-icons-png.flaticon.com/512/768/768869.png" alt="notes">
+              <input oninput="myFunction()" id="inputbox" type="text" placeholder="Type your todo list">
+              <img id="addTodo"src="https://as2.ftcdn.net/v2/jpg/01/09/45/79/1000_F_109457949_uqWFYsUgAotoypsviToHlWCj7yd9SsOC.jpg" alt="addtodo" >
+            </form>
+            <ul class="upperlist">
+              <li><img src="https://as2.ftcdn.net/v2/jpg/03/14/04/79/1000_F_314047987_a8OvQM3BqVRPSQWTWstLTou89kL3kVUA.jpg" alt=""></li>
+              <li id="completetask">complete All task</li>
+              <li>Clear completed</li>
+            </ul>
+            <hr>
+             <ul class="todos">
+              <!-- <li class="todo">Apple <span><img src="https://cdn-icons-png.flaticon.com/512/1617/1617543.png" alt=""></span></li>
+              <li class="todo">Apple<span><img src="https://cdn-icons-png.flaticon.com/512/1617/1617543.png" alt=""></span></li>
+              <li class="todo">Apple<span><img src="https://cdn-icons-png.flaticon.com/512/1617/1617543.png" alt=""></span></li> -->
+              <li class="todo">Apple <span>X</span></li>
+              <li class="todo">Apple<span>X</span></li>
+              <li class="todo">Apple<span>X</span></li>
+
+             </ul>
+             
+             <footer >
+               <hr>
+                <ul class="footerLists">
+                  <li class="flist">Task left</li>
+                  <li class="flist" id="rightlist">All<span>Uncomplete</span>Complete</li>
+                </ul>
+             </footer>
+           </div>
+           
+      </div>
+      
+    <script src="./main.js"></script> 
+</body>
+</html>
